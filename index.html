@@ -199,17 +199,17 @@
 
       <div class="grid two">
         <div>
-          <label for="loanAmount">Loan amount (ETB)</label>
+          <label for="loanAmount">የብድር መጠን </label>
           <input id="loanAmount" type="number" inputmode="decimal" placeholder="60000000" value="60000000" />
         </div>
 
         <div>
-          <label for="annualRate">Annual interest rate (%)</label>
+          <label for="annualRate">ዓመታዊ የወለድ መጠን (%)</label>
           <input id="annualRate" type="number" inputmode="decimal" step="0.01" placeholder="18.5" value="18.5" />
         </div>
 
         <div>
-          <label for="months">Repayment period (months)</label>
+          <label for="months">የመክፈያ ጊዜ</label>
           <input id="months" type="number" inputmode="numeric" placeholder="60" value="60" />
         </div>
 
@@ -223,21 +223,21 @@
       </div>
 
       <div class="buttons">
-        <button class="primary" onclick="calculate()">Calculate</button>
+        <button class="primary" onclick="calculate()">አስላ</button>
         <button class="secondary" onclick="resetForm()">Reset</button>
       </div>
 
       <div class="results">
         <div class="result">
-          <div class="k">Monthly payment</div>
+          <div class="k">ወርሃዊ payment</div>
           <div class="v" id="monthlyPayment">—</div>
         </div>
         <div class="result">
-          <div class="k">Total paid</div>
+          <div class="k">ጠቅላላ</div>
           <div class="v" id="totalPaid">—</div>
         </div>
         <div class="result">
-          <div class="k">Total interest</div>
+          <div class="k">ጠቅላላ interest</div>
           <div class="v" id="totalInterest">—</div>
         </div>
       </div>
